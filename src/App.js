@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/scss/App.scss';
+import arrow from './assets/images/icon-arrow.svg'
+import DateDisplay from './components/DateDisplay';
+import './assets/scss/App.scss'
+import ResultDisplay from './components/ResultDisplay';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main-container'>
+      <DateDisplay />
+      <div className='arrow-main'>
+      <div className="left-content"></div>
+      <div className='arrow'> </div>
+      <div className="right-content"></div>
+
+      </div>
+     
+     
+      <ResultDisplay/>
     </div>
+
   );
 }
 

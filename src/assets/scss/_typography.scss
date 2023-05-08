@@ -1,0 +1,23 @@
+@import 'variable';
+
+body {
+  font-family: $font-family;
+  background-color: $light-grey-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 1px);
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: $body-copy-font-size;
+  font-weight: $font-weight-regular; 
+}
+
+.attribution{
+    margin-top: 30px;
+}
+

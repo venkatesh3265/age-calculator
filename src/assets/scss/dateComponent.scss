@@ -1,0 +1,52 @@
+@import "./_variable";
+@import "typography";
+
+.date-main {
+    display: flex;
+    max-width: 100%;
+    color:$smokey-grey-color;
+   
+    .date-day,
+  .date-month,
+  .date-year {
+    
+    margin-bottom: 1rem;
+  }
+
+  .date-day {
+    // Styles for date-day
+    font-weight: 400;
+  }
+
+  .date-month {
+    // Styles for date-month
+   
+  }
+
+  .date-year {
+    // Styles for date-year
+   
+  }
+
+  .react-datepicker-wrapper {
+    // Styles for the react-datepicker-wrapper
+    display: inline-block;
+  }
+
+  .react-datepicker__input-container {
+    // Styles for the react-datepicker__input-container
+    display: inline-block;
+  }
+
+  input[type="text"] {
+    // Styles for the input field
+    width: 70%;
+    height: 40px;
+    box-sizing: border-box;
+    font-family: $font-family;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    border-color: $smokey-grey-color;
+  }
+    
+}
